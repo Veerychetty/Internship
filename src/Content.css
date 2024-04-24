@@ -1,0 +1,148 @@
+
+
+
+.container{
+    display: flex;
+    max-width: 75%;
+    min-width: 25%;
+    margin-bottom: 30px;
+    align-items: center;
+    background:  rgb(245, 106, 0,0.5) ;
+    
+    border-radius: 10px;
+    
+    justify-content: center;
+    flex-direction: column;
+
+    color: white;
+    transition: 2s;
+    .input{
+        background-color: antiquewhite;
+        color: orange;
+        padding: 5px 10px;
+        border-radius: 10px;
+        
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        min-width: 0;
+    }
+    
+    li{
+        position: relative;
+        max-width: 100%;
+        list-style: disc;
+        
+        box-sizing:content-box;
+        overflow: auto;
+        text-align: center;
+        
+    
+    
+        
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+    }
+     p{
+        background: rgb(245, 217, 167);
+        padding: 5px 10px;
+        color: orange;
+        border-radius: 10px;
+    }
+    li::-webkit-scrollbar{
+        width: 12px;
+        scrollbar-color: blue;
+        
+    }
+    li::-webkit-scrollbar-track{
+        background: rgb(255, 187, 0,0.5);
+    }
+    li::-webkit-scrollbar-thumb{
+        width: 4px;
+        scrollbar-width: 4px;
+        background-color:rgb(135, 217, 12,0.4);
+        border-radius: 40px;
+        
+    
+    }
+    .addbtn{
+        background: linear-gradient(67deg ,rgb(69, 151, 69),rgb(59, 228, 7),rgb(63, 121, 63));
+        padding: 5px 10px;
+       
+        
+        border-radius: 10px;
+        
+        margin-top: 4px;
+        border-color: palegreen;
+        transition: 0.5s;
+        
+
+    }
+    .addbtn:hover{
+        
+        
+        filter: drop-shadow(0px 0px 10px rgb(4, 250, 61));
+    }
+    .addbtn > span{
+        position: absolute;
+        display: block;
+
+    }
+    .addbtn > span:nth-child(1){
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(90deg,transperent,red);
+        animation: animate1 1s infinite;
+        
+    }
+    @keyframes animate1 {
+
+        0%{
+            left: -100%;
+        }
+        100%{
+            left: 100%;        }
+        
+    }
+
+    
+    .delbtn{
+        background: linear-gradient(67deg ,rgb(227, 2, 10),rgb(249, 119, 119),rgb(235, 5, 5));
+        padding: 5px 10px;
+        
+        border-radius: 10px;
+        
+        margin-top: 4px;
+        border-color: rgb(247, 183, 207);
+        transition: 0.5s;
+
+
+    }
+    .delbtn:hover{
+        filter: drop-shadow(0px 0px 10px rgb(250, 86, 4));
+
+    }
+
+}
+
+@media only screen and(max-width:465px) {
+    .container .input{
+        scale: 0.5;
+    }
+    .container > p{
+        scale: 0.4;
+    }
+    
+} 
+
+
+

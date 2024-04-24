@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+.title .bit{
+    
+    font-size: smaller;
+    color: coral;
+    filter: drop-shadow(0px 0px 10px grey);
+    
+}

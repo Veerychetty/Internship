@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d78cf94.css",
+    "main.js": "/static/js/main.ea63389a.js",
+    "static/media/orange flower.jpg": "/static/media/orange flower.6bb671887617eacc2f09.jpg",
+    "index.html": "/index.html",
+    "main.7d78cf94.css.map": "/static/css/main.7d78cf94.css.map",
+    "main.ea63389a.js.map": "/static/js/main.ea63389a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d78cf94.css",
+    "static/js/main.ea63389a.js"
+  ]
+}
